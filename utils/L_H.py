@@ -11,7 +11,7 @@ from statsmodels.tsa.api import VAR
 from statsmodels.tsa.stattools import grangercausalitytests
 import glob
 from statsmodels.tsa.stattools import adfuller
-from statsmodels.tsa.vector_ar.vecm import coint_johansen
+from statsmodels.tsa.vector_ar.vecm import *
 import statsmodels.api as sm
 from statsmodels.tsa.api import VAR
 
